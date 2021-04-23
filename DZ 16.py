@@ -7,5 +7,7 @@ for word in x.split():
 
 
 max = max(y.values())
-most_friquent = [k for k, v in y.items() if v == max]
-print(min(most_friquent))
+for k, v in sorted(y.items()):
+    if v == max:
+        print(k)
+        break
