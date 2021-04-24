@@ -7,3 +7,4 @@ print(len(set(lst1) & set(lst2)))
 
 
 print(len(set(input().split()) & set(input().split())))
+#
