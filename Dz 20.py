@@ -6,14 +6,14 @@ v = [
 ]
 
 
-# y = []
-# for i in v:
-#     if i[-1]*item[-2] < 100:
-#        y.append((i[0],i[-1]*i[-2]+10))
-#     else:
-#        y.append((i[0],i[-1]*i[-2]))
-#
-# print(y)
-print(list(map(lambda i: (i[0],i[-1]) if i[-1] * i[-2] > 100 else i[-1] * i[-2] + 10, v)))
+y = []
+for i in v:
+    if i[-1]*i[-2] < 100:
+       y.append((i[0],i[-1]*i[-2]+10))
+    else:
+       y.append((i[0],i[-1]*i[-2]))
+
+print(y)
+#print(list(map(lambda i: (i[0],i[-1]) if i[-1] * i[-2] > 100 else i[-1] * i[-2] + 10, v)))
 # Я так и не врубился куда round() вставлять.
 # Времени нет так что хз или потом сам додумаюсь, или на уроке спрошу.
