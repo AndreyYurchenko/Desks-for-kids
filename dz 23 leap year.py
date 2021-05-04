@@ -1,7 +1,9 @@
 
 def is_year_leap(year):
-    return year % 4 == 0 and year % 100 != 0 or year % 400 == 0
+    return year % 4 == 0
+    return year % 100 != 0
+    return year % 400 == 0
 
 
-
-print(is_year_leap(2000))
+x = int(input('Введите год: '))
+print(is_year_leap(x))
