@@ -1,5 +1,5 @@
-def arithmetic (x, y, z):
-    if z == "+" :
+def arithmetic(x, y, z):
+	if z == "+":
 		return (x + y)
 	elif z == "-":
 		return (x - y)
@@ -7,7 +7,7 @@ def arithmetic (x, y, z):
 		return (x * y)
 	elif z == "/":
 		return (x / y)
-	else :
+	else:
 		return ("Invalid operation")
 
 
