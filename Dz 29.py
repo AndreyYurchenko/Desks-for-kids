@@ -1,5 +1,5 @@
-fname = input('Файл: ')
-f = open(fname, 'w')
+name = input('Файл: ')
+f = open(name, 'w')
 while True:
     s = input()
     if s == '':
