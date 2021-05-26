@@ -4,9 +4,6 @@ class Counter:
     def __init__(self, start=None, end=None):
         self.start = start
         self.end = end
-        # print(self.current) # --> 0
-        # print(self.start) # --> 0
-        # print(self.end) # --> 20
 
     def increase(self):
         if self.current < self.end:
