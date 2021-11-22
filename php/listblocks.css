@@ -24,6 +24,7 @@ body {
     background-size: cover;
     -o-background-size: cover;
   }
+
 .perent {
     display: block; 
     background: url("https://cs7.pikabu.ru/post_img/2019/09/20/8/1568982424114350738.jpg");
@@ -39,4 +40,10 @@ body {
 }
 .block1 {
     background: #888;
+}
+
+@media only screen and (max-width : 480px) {
+    .perent  {
+        width: 320px;
+    }
 }
