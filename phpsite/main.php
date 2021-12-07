@@ -34,7 +34,7 @@
               <li>Аааааааааа</li>
               <li>Куча места налитай братані</li>
               <li>support Андрей</li>
-              <li>Help Андпей</li>
+              <li>Help Андрей</li>
             </ul>
             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
           </div>
